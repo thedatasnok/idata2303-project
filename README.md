@@ -9,7 +9,7 @@ Some of the requested features regarding security is not supported in SQLite, th
 1. Install Docker Desktop
 
 2. Install Anaconda
-  - Open the Anaconda prompt as an administrator and run: `conda install ipython-sql conda-forge psycopg2 sqlalchemy`
+  - Open the Anaconda prompt as an administrator and run: `conda install -c conda-forge ipython-sql psycopg2 sqlalchemy`
 
 3. Start the postgres database service using `docker compose up -d`
 
